@@ -71,6 +71,7 @@ class MemoryManager{
 	int WorstFitIndex = -1;
 	int maxFragmentation = -1;
 	for(int i=0;i<memoryBlocks.size();i++){
+		//Retrieving Block of Index i
 		MemoryBlock block = memoryBlocks.get(i);
 		if(!block.isAllocated() && block.getSize()>=processSize){
 			int fragmentation = block.getSize() - processSize;
