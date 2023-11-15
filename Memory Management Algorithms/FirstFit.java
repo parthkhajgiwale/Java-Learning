@@ -77,7 +77,7 @@ class MemoryManager{
 		
 	}
 }
-public class spos{
+public class FirstFit{
 	public static void main(String[] args){
 		MemoryManager memorymanager = new MemoryManager();
 		Scanner scanner = new Scanner(System.in);
