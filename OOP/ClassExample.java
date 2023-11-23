@@ -22,7 +22,7 @@ class Person {
 }
 
 // Main class to demonstrate the example
-public class OOPExample {
+public class ClassExample {
     public static void main(String[] args) {
         // Creating a Scanner object to take user input
         Scanner scanner = new Scanner(System.in);
